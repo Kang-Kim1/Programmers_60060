@@ -3,7 +3,7 @@
 완전탐색으로 풀었다가 효율성 테스트에서 좌절,,  
 풀이를 찾다가 Trie라는 자료구조에 대해 처음 접할 수 있었다.  
 Trie는 아래와 같이 Tree 형태로 String을 Character로 쪼개어 각 노드에 입력한다 :  
-<img src="https://user-images.githubusercontent.com/20007119/119345941-82e3fc00-bcd4-11eb-9da4-2eda7505b3ec.png" width="60%" height="60%">
+<img src="https://user-images.githubusercontent.com/20007119/119345941-82e3fc00-bcd4-11eb-9da4-2eda7505b3ec.png" width="60%" height="60%">  
 새로운 문자열을 추가할 때마다 문자열에 포함된 Charcter 노드의 카운트수를 더해준다.  
 각 Query에서 ?가 위치한 바로 앞 Character 노드의 Count를 반환하여 답을 구할 수 있었다.  
 
