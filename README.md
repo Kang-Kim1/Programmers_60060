@@ -1,5 +1,5 @@
 # Programmers_60060
-##프로그래머스 - 가사 검색(https://programmers.co.kr/learn/courses/30/lessons/60060)  
+## 프로그래머스 - 가사 검색(https://programmers.co.kr/learn/courses/30/lessons/60060)  
 완전탐색으로 풀었다가 효율성 테스트에서 좌절,,  
 풀이를 찾다가 Trie라는 자료구조에 대해 처음 접할 수 있었다.  
 Trie는 아래와 같이 Tree 형태로 String을 Character로 쪼개어 각 노드에 입력한다 :  
